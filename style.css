@@ -213,7 +213,7 @@ footer p {
 }
 
 .modal-content {
-  padding-bottom: 0 !important;
+  padding: 24px 24px 0 24px !important;
 }
 
 /* animation */
