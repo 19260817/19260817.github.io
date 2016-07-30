@@ -6,8 +6,15 @@
 
 @font-face {
   font-family: "MottoElder";
-  src: url(fonts/MottoElder.ttf) format("truetype");
+  src: url("fonts/MottoElder.ttf") format("truetype");
   font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf") format("truetype");
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -203,6 +210,10 @@ footer p {
 
 #zupport {
   width: 50%;
+}
+
+.modal-content {
+  padding-bottom: 0;
 }
 
 /* animation */
