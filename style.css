@@ -6,14 +6,14 @@
 
 @font-face {
   font-family: "MottoElder";
-  src: url("fonts/MottoElder.ttf") format("truetype");
+  src: url(fonts/MottoElder.ttf) format("truetype");
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Roboto";
-  src: url("fonts/roboto/Roboto-Regular.ttf") format("truetype");
+  src: url(fonts/roboto/Roboto-Regular.ttf) format("truetype");
   font-weight: 500;
   font-style: normal;
 }
@@ -29,8 +29,8 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5 {
-	font-weight: 100 !important;
+h1,h2,h3,h4,h5 {
+  font-weight: 100 !important;
 }
 
 .icon-silence_in_making_big_money:before {
@@ -48,10 +48,21 @@ h1, h2, h3, h4, h5 {
 }
 
 body {
-  font: normal 16px 'Roboto',Open Sans,Microsoft Yahei,sans-serif;
+  overflow: hidden;
+  font: normal 16px Roboto,Open Sans,Microsoft Yahei,sans-serif;
   position: absolute;
   height: 100%;
   width: 100%;
+}
+
+.preloader-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 89;
 }
 
 div.wrapper {
@@ -74,7 +85,7 @@ a {
   text-decoration: none;
   color: #039be5;
   border-bottom: 1px solid #039be5;
-  font-weight: normal;
+  font-weight: 400;
 }
 
 a:hover {
@@ -208,7 +219,7 @@ footer p {
 }
 
 .modal-content {
-  padding: 24px 24px 0 24px !important;
+  padding: 24px 24px 0 !important;
 }
 
 #target {
