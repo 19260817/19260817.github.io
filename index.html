@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>续命倒计时 - 长者九十大寿</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link href="materialize.min.css" rel="stylesheet">
-    <script src="jquery-2.1.1.min.js" type="text/javascript"></script>
-    <script src="script.js" type="text/javascript"></script>
-    <script src="materialize.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(window).load(function() {
-          $('.preloader-wrapper').fadeOut();
-          $('#preloader').delay(350).fadeOut('slow');
-          $('body').delay(350).css({'overflow':'visible'});
-      })
-    </script>
-  </head>
-  <body>
-    <!-- preloader -->
-    <div id="preloader">
+
+<head>
+  <title>续命倒计时 - 长者九十大寿</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="materialize.min.css" rel="stylesheet">
+  <script src="jquery-2.1.1.min.js" type="text/javascript"></script>
+  <script src="script.js" type="text/javascript"></script>
+  <script src="materialize.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(window).load(function() {
+      $('.preloader-wrapper').fadeOut();
+      $('#preloader').delay(350).fadeOut('slow');
+      $('body').delay(350).css({
+        'overflow': 'visible'
+      });
+    })
+  </script>
+</head>
+
+<body>
+  <!-- preloader -->
+  <div id="preloader">
     <div class="preloader-wrapper active">
       <div class="spinner-layer spinner-red-only">
         <div class="circle-clipper left">
@@ -34,108 +38,98 @@
         </div>
       </div>
     </div>
-    </div>
-    <!-- end preloader -->
-    <header>
-    </header>
-    <section>
-      <!-- div.wrapper -->
-      <div class="wrapper">
-        <hgroup>
-          <h1>续命倒计时</h1>
-          <p class="meta">距离长者九十大寿还有</p>
-        </hgroup>
-        <!-- countdown -->
-        <div id="countdown">
-          <div class="cd-box">
-            <p class="numbers days">- -</p>
-            <br>
-            <p class="strings timeRefDays">天</p>
-          </div>
-          <div class="cd-box">
-            <p class="numbers hours">- -</p>
-            <br>
-            <p class="strings timeRefHours">小时</p>
-          </div>
-          <div class="cd-box">
-            <p class="numbers minutes">- -</p>
-            <br>
-            <p class="strings timeRefMinutes">分钟</p>
-          </div>
-          <div class="cd-box">
-            <p class="numbers seconds">- -</p>
-            <br>
-            <p class="strings timeRefSeconds">秒</p>
-          </div>
-        </div>
-        <!-- end countdown -->
-        <footer>
-          <p>8月17日开启疯狂续命膜式</p>
+  </div>
+  <!-- end preloader -->
+  <header>
+  </header>
+  <section>
+    <!-- div.wrapper -->
+    <div class="wrapper">
+      <hgroup>
+        <h1>续命倒计时</h1>
+        <p class="meta">距离长者九十大寿还有</p>
+      </hgroup>
+      <!-- countdown -->
+      <div id="countdown">
+        <div class="cd-box">
+          <p class="numbers days">- -</p>
           <br>
-          <a href="javascript:;" id="bless" title=
-            "一点微小的提示：如加载时间过长，请通过代理访问本页">提前祝愿长者长命百岁!</a> <a class=
-            "btn waves-effect waves-light zupport-trigger green" href=
-            "#zupport">滋瓷一个&nbsp;<i class=
-            'icon-silence_in_making_big_money'></i></a> <a class=
-            "right xuming-trigger" href="#xuming">为长者续一秒</a>
-        </footer>
-        <div id="disqus_thread">
+          <p class="strings timeRefDays">天</p>
         </div>
-        <script>
-          var disqus_config = function () {
+        <div class="cd-box">
+          <p class="numbers hours">- -</p>
+          <br>
+          <p class="strings timeRefHours">小时</p>
+        </div>
+        <div class="cd-box">
+          <p class="numbers minutes">- -</p>
+          <br>
+          <p class="strings timeRefMinutes">分钟</p>
+        </div>
+        <div class="cd-box">
+          <p class="numbers seconds">- -</p>
+          <br>
+          <p class="strings timeRefSeconds">秒</p>
+        </div>
+      </div>
+      <!-- end countdown -->
+      <footer>
+        <p>8月17日开启疯狂续命膜式</p>
+        <br>
+        <a href="javascript:;" id="bless" title="一点微小的提示：如加载时间过长，请通过代理访问本页">提前祝愿长者长命百岁!</a> <a class="btn waves-effect waves-light zupport-trigger green" href="#zupport">滋瓷一个&nbsp;<i class=
+            'icon-silence_in_making_big_money'></i></a> <a class="right xuming-trigger" href="#xuming">为长者续一秒</a>
+      </footer>
+      <div id="disqus_thread">
+      </div>
+      <script>
+        var disqus_config = function() {
           this.page.url = "https://19260817.ml";
           this.page.identifier = "19260817";
-          };
-          
-          (function() {
-          var d = document, s = d.createElement('script');
+        };
+
+        (function() {
+          var d = document,
+            s = d.createElement('script');
           s.src = '//elder1926.disqus.com/embed.js';
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
-          })();
-        </script>
-      </div>
-      <!-- end div.wrapper -->
-    </section>
-    <!-- 膜dals -->
-    <div class="modal" id="zupport">
-      <div class="modal-content">
-        <h4>滋瓷续命项目</h4>
-        <p>当前进度：</p>
-        <div class="progress green lighten-4">
-          <div class="determinate green" style="width: 0%">
-          </div>
+        })();
+      </script>
+    </div>
+    <!-- end div.wrapper -->
+  </section>
+  <!-- 膜dals -->
+  <div class="modal" id="zupport">
+    <div class="modal-content">
+      <h4>滋瓷续命项目</h4>
+      <p>当前进度：</p>
+      <div class="progress green lighten-4">
+        <div class="determinate green" style="width: 0%">
         </div>
-        <p>目标：<span id="target">$26</span></p>
-        <p>通过&nbsp;<span class=
-          "paypal"><span>Pay</span><span>Pal</span></span>&nbsp;滋瓷本项目以购买服务器运行续命程序。</p>
-        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style=
-          "margin-top:6px" target="_blank">
-          <input name="cmd" type="hidden" value="_s-xclick"> <input name=
-            "encrypted" type="hidden" value=
-            "-----BEGIN PKCS7-----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-----END PKCS7----- ">
-          <input alt="PayPal - The safer, easier way to pay online!" name=
-            "submit" src=
-            "https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" type=
-            "image">
-        </form>
       </div>
+      <p>目标：<span id="target">$26</span>
+      </p>
+      <p>通过&nbsp;<span class="paypal"><span>Pay</span><span>Pal</span></span>&nbsp;滋瓷本项目以购买服务器运行续命程序。</p>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" style="margin-top:6px" target="_blank">
+        <input name="cmd" type="hidden" value="_s-xclick">
+        <input name="encrypted" type="hidden" value="-----BEGIN PKCS7-----MIIHXwYJKoZIhvcNAQcEoIIHUDCCB0wCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYCTe7KeMiSCnchNbWnb15x8wmd1qJRS/vIM+KLgJduoV/rYuOTPKfuFK0AQ/YqHg0WyhZe36tchCu0xJoDntPiy4eZpMdnRvqYRk9koIuj6kq2y7jZP239HC7WCSlbyfg9s1iyLOCIzIrLHrmqTCb2pTnPUhbn6i7+2OylBrvDtMTELMAkGBSsOAwIaBQAwgdwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQISBbLq3Rt0l2Agbj1XcgDOO08T7Of1QrMT/Df7dFXNBF5Fw0fd/a0n3TcUE0f34Jucwfh5y1G01kkzWFa9Oen1c8kztgRr7ZkxGE56hvMhlcxbk+2epR6nin2BIETv7g8UUXuP1R17gtDeziHDSz8TvvIlGNdE37Llfp/Gl7vuSkh8XnPTv6w6QqQUuxWpWt4ICPX2LdgQ1Ps4qrBuSGlc5p8794p8MofXFw5DfsN11nNLn/xtmkJGbphffrBlAEhaWRToIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTYwNzMwMDkzMTE5WjAjBgkqhkiG9w0BCQQxFgQUdwQ479F48tp8CcBUYVLXQwUryRgwDQYJKoZIhvcNAQEBBQAEgYCuLpxCD2mWJ2/inFG2/HolhyXs8EA2VN3kf8Ok8XgM/fMlf/ZDOuywz7eHbRMLT964OeowB5E0I91Mxh64r5fPpylY1OewTJu0rqUjJQqkahmmd1Lc51n6Nxkw/nwuCyGmEvQS1P74WmVQI4ZNxf/tujxqv1oY1fXxkyT/0EoIGg==-----END PKCS7----- ">
+        <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" type="image">
+      </form>
+    </div>
+    <div class="modal-footer">
+      <a class="modal-action modal-close waves-effect waves-green btn-flat" href="javascript:;">吼啊！</a>
+    </div>
+  </div>
+  <div class="modal" id="xuming">
+    <div class="modal-content center">
+      <h4>扫一扫，续一秒</h4>
+      <img src="images/qr_code.png">
       <div class="modal-footer">
-        <a class="modal-action modal-close waves-effect waves-green btn-flat"
-          href="javascript:;">吼啊！</a>
+        <a class="modal-action modal-close waves-effect waves-green btn-flat" href="javascript:;">Excited!</a>
       </div>
     </div>
-    <div class="modal" id="xuming">
-      <div class="modal-content center">
-        <h4>扫一扫，续一秒</h4>
-        <img src=
-          "https://www.shopify.com/growth-tools-assets/qr-code/shopify-faae7065b7b351d28495b345ed76096c03de28bac346deb1e85db632862fd0e4.png">
-        <div class="modal-footer">
-          <a class="modal-action modal-close waves-effect waves-green btn-flat"
-            href="javascript:;">Excited!</a>
-        </div>
-      </div>
-      <!-- end 膜dals -->
-    </div>
-  </body>
+    <!-- end 膜dals -->
+  </div>
+</body>
+
 </html>
