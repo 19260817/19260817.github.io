@@ -32,8 +32,8 @@ function getActualTime(cb) {
 		url: 'https://time.akamai.com/?xml',
 		dataType: 'xml',
 		success: function(xml) {
-			var time = $(xml).find('utc');
-			cb(Math.floor(time / 1e3));
+			var time = $(xml).find('utc').text();
+			cb(Math.floor(time * 1000));
 		},
 		error: function(xhr, status, error) {
 			cb();
