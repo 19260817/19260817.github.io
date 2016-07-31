@@ -105,6 +105,10 @@ footer a:hover {
   border-bottom: 1px solid #4CAF50;
 }
 
+.btn a:hover {
+  color: #FFF;
+}
+
 /* page layout */
 /* header */
 header {
