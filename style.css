@@ -91,7 +91,7 @@ span,a,strong {
   font-weight: 700;
 }
 
-a {
+footer a {
   -webkit-transition: all .3s;
   transition: all .3s;
   text-decoration: none;
@@ -100,13 +100,9 @@ a {
   font-weight: 400;
 }
 
-a:hover {
+footer a:hover {
   color: #4CAF50;
   border-bottom: 1px solid #4CAF50;
-}
-
-.btn:hover {
-  color: #FFF !important;
 }
 
 /* page layout */
