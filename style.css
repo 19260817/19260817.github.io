@@ -57,9 +57,16 @@ body {
 
 #preloader {
   position: fixed;
-  margin: auto;
-  background-color: #fff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #FFF;
   z-index: 89;
+}
+
+.preloader-wrapper {
+  margin: auto;
 }
 
 div.wrapper {
