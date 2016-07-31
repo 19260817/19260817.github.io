@@ -5,6 +5,13 @@
 }
 
 @font-face {
+    font-family: "Noto Sans DemiLight";
+    url("fonts/NotoSansCJKSC-DemiLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
   font-family: "MottoElder";
   src: url(fonts/MottoElder.ttf) format("truetype");
   font-weight: 400;
@@ -48,8 +55,7 @@ h1,h2,h3,h4,h5 {
 }
 
 body {
-  overflow: hidden;
-  font: normal 16px 'Roboto',Open Sans,Microsoft Yahei,sans-serif;
+  font: normal 16px 'Roboto','Noto Sans DemiLight',Open Sans,Microsoft Yahei,sans-serif;
   position: absolute;
   height: 100%;
   width: 100%;
