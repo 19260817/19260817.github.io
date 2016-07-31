@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: "Noto Sans DemiLight";
+    font-family: "NotoSansDemiLight";
     url(fonts/NotoSansCJKSC-DemiLight.ttf) format("truetype");
     font-style: normal;
     font-weight: normal;
@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5 {
 }
 
 body {
-  font: normal 16px 'Roboto','Noto Sans DemiLight',Open Sans,Microsoft Yahei,sans-serif;
+  font: normal 16px 'Roboto','NotoSansDemiLight',Open Sans,Microsoft Yahei,sans-serif;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -67,7 +67,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #FFF;
+  background-color: #F5F5F5;
   z-index: 89;
 }
 
