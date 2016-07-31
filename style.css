@@ -86,11 +86,6 @@ a:hover {
   color: #FFF !important;
 }
 
-.alignright {
-  right: 0;
-  position: absolute;
-}
-
 /* page layout */
 /* header */
 header {
@@ -217,14 +212,18 @@ footer p {
 }
 
 #target {
-  color: ffb300;
+  color: #ffb300;
 }
 
-.paypal span:nth-child(0) {
-  color: #003087;
+.paypal {
+  font-style: italic;
 }
 
 .paypal span:nth-child(1) {
+  color: #003087;
+}
+
+.paypal span:nth-child(2) {
   color: #009cde;
 }
 
