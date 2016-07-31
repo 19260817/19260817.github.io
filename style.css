@@ -216,6 +216,18 @@ footer p {
   padding: 24px 24px 0 24px !important;
 }
 
+#target {
+  color: ffb300;
+}
+
+.paypal span:nth-child(0) {
+  color: #003087;
+}
+
+.paypal span:nth-child(1) {
+  color: #009cde;
+}
+
 /* animation */
 @-webkit-keyframes pulse {
   from {
