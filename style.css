@@ -230,6 +230,11 @@ footer p {
   padding: 24px 24px 0 !important;
 }
 
+.btn-flat:hover {
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: none;
+}
+
 #target {
   color: #ffb300;
 }
