@@ -107,6 +107,7 @@ footer a:hover {
 
 .btn a:hover {
   color: #FFF;
+  border-bottom: none;
 }
 
 /* page layout */
