@@ -55,7 +55,7 @@ body {
   width: 100%;
 }
 
-.preloader-wrapper {
+#preloader {
   position: fixed;
   top: 0;
   left: 0;
