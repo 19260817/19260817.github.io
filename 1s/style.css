@@ -1,6 +1,6 @@
 body {
   background-color: #F5F5F5;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Microsoft Yahei, sans-serif;
 }
 
 @font-face {
@@ -25,6 +25,10 @@ body {
   left: 50%;
 }
 
-.btn-floating {
+.btn-floating.btn-large {
+  font-size: 130%;
   text-transform: none !important;
+  width: 76px;
+  height: 76px;
+  line-height: 76px;
 }
