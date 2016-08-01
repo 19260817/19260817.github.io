@@ -10,19 +10,16 @@ body {
   font-style: normal;
 }
 
-.xuming-wrapper {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: 89;
-}
-
 #xuming {
-  position: absolute !important;
-  top: 50%;
-  left: 50%;
+  width: 60%; 
+  height: 60%;
+  min-width: 400px;
+  max-width: 500px;
+  padding: 40px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
 }
 
 .btn-floating.btn-large {
@@ -31,4 +28,8 @@ body {
   width: 76px;
   height: 76px;
   line-height: 76px;
+}
+
+.modal-content p {
+  font-size: 120%;
 }
