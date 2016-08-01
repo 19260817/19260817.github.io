@@ -1,7 +1,6 @@
 body {
   background-color: #F5F5F5;
   font-family: 'Roboto';
-  text-transform: initial;
 }
 
 @font-face {
@@ -15,4 +14,8 @@ body {
   position: absolute !important;
   top: 42%;
   left: 50%;
+}
+
+.btn-large {
+  text-transform: initial !important;
 }
