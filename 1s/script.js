@@ -27,5 +27,6 @@ $(document).ready(){function(){
             $('#prolonged').openModal();
         } else {
             $('#failed').openModal();
+        }
     })
 }}
