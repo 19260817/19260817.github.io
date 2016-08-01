@@ -231,8 +231,16 @@ footer p {
   width: 50%;
 }
 
-.modal-content {
+#zupport .modal-content {
   padding: 24px 24px 0 !important;
+}
+
+#xuming {
+  width: 20%;
+}
+
+#xuming .btn-flat {
+  float: none;
 }
 
 .btn-flat:hover {
