@@ -11,17 +11,21 @@ body {
 }
 
 #xuming {
-  width: 60%; 
-  height: 60%;
-  min-width: 400px;
-  max-width: 500px;
-  padding: 40px;
+  width: 76px;
+  height: 82px;
   overflow: auto;
   margin: auto;
   position: absolute;
-  top: 0; left: 0; bottom: 0; right: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
 
+#xuming-trigger {
+  display: block;
+  margin: 0 auto;
+}
 
 .btn-floating.btn-large {
   font-size: 130%;
