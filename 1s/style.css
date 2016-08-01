@@ -23,5 +23,8 @@ body {
   position: absolute !important;
   top: 50%;
   left: 50%;
+}
+
+.btn-floating {
   text-transform: none !important;
 }
