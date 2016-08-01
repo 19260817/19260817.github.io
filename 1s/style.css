@@ -28,11 +28,16 @@ body {
 }
 
 .btn-floating.btn-large {
-  font-size: 130%;
+  font-size: 150%;
   text-transform: none !important;
   width: 76px;
   height: 76px;
   line-height: 76px;
+}
+
+.btn-flat {
+  float: none;
+  font-size: 120%;
 }
 
 .modal-content p {
