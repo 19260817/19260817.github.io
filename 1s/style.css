@@ -1,7 +1,17 @@
 body {
   background-color: #F5F5F5;
+  font-family: 'Roboto';
 }
 
-.xuming {
-  
+@font-face {
+  font-family: "Roboto";
+  src: url(../fonts/roboto/Roboto-Regular.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.xuming-wrapper {
+  position: absolute !important;
+  top: 42%;
+  left: 50%;
 }
