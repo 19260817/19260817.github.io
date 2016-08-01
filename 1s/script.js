@@ -19,7 +19,7 @@ function readCookie(name) {
     return null;
 }
 
-$(document).ready(){function(){
+$(document).ready({function(){
     $("#xuming-trigger").click(function(){
         var isProlonged = readCookie("prolonged");
         if (!isProlonged) {
@@ -29,4 +29,4 @@ $(document).ready(){function(){
             $('#failed').openModal();
         }
     })
-}}
+})}
