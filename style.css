@@ -243,6 +243,10 @@ footer p {
   float: none;
 }
 
+#xuming h4 {
+  font-size: 27px;
+}
+
 .btn-flat:hover {
     background-color: rgba(0,0,0,0.1);
     box-shadow: none;
