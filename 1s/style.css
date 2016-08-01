@@ -10,12 +10,18 @@ body {
   font-style: normal;
 }
 
-.xuming-wrapper {
-  position: absolute !important;
-  top: 42%;
-  left: 50%;
+#xuming-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 89;
 }
 
-.btn-large {
-  text-transform: initial !important;
+#xuming-trigger {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  text-transform: none !important;
 }
