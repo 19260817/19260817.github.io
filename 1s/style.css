@@ -1,6 +1,6 @@
 body {
   background-color: #F5F5F5;
-  font-family: 'Roboto', Microsoft Yahei, sans-serif;
+  font-family: 'Roboto',Microsoft Yahei,sans-serif;
 }
 
 @font-face {
@@ -11,19 +11,22 @@ body {
 }
 
 #preloader {
-  position: fixed;
+  width: 90px;
+  height: 90px;
+  overflow: auto;
+  margin: auto;
+  position: absolute;
   top: 0;
   left: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   background-color: #F5F5F5;
   z-index: 89;
 }
 
 .preloader-wrapper {
-  position: absolute !important;
-  top: 42%;
-  left: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 #xuming {
