@@ -10,7 +10,7 @@ body {
   font-style: normal;
 }
 
-#xuming-wrapper {
+.xuming-wrapper {
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@ body {
   z-index: 89;
 }
 
-#xuming-trigger {
+#xuming {
   position: absolute !important;
   top: 50%;
   left: 50%;
