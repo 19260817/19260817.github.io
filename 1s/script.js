@@ -19,6 +19,13 @@ function readCookie(name) {
     return null;
 }
 
-function eraseCookie(name) {
-    createCookie(name,"",-1);
-}
+$(document).ready(){function(){
+    $("#xuming-trigger").click(function(){
+        var isProlonged = readCookie("prolonged");
+        if (!isProlonged) {
+            createCookie("prolonged", true, 1);
+            $('#prolonged').openModal();
+        } else {
+            $('#failed').openModal();
+    })
+}}
