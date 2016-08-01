@@ -21,6 +21,7 @@ function readCookie(name) {
 
 $(document).ready({function(){
     $("#xuming-trigger").click(function(){
+        alert('s');
         var isProlonged = readCookie("prolonged");
         if (!isProlonged) {
             createCookie("prolonged", true, 1);
