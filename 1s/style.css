@@ -13,7 +13,7 @@ body {
 #preloader {
   width: 90px;
   height: 90px;
-  overflow: auto;
+  overflow: hidden;
   margin: auto;
   position: absolute;
   top: 0;
