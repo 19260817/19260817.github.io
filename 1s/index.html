@@ -2,40 +2,69 @@
 <html>
 
 <head>
-    <title>为长者续一秒</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link type="text/css" rel="stylesheet" href="materialize.min.css" />
-    <link type="text/css" rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="../jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="materialize.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
+	<title>为长者续一秒</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link type="text/css" rel="stylesheet" href="materialize.min.css" />
+	<link type="text/css" rel="stylesheet" href="style.css" />
+	<script type="text/javascript" src="../jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="materialize.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('.preloader-wrapper').fadeOut();
+			$('#preloader').delay(350).fadeOut('slow');
+			$('body').delay(350).css({
+				'overflow': 'visible'
+			});
+		})
+	</script>
 </head>
 
 <body>
-    <div id="xuming">
-        <a href="javascript:void(0);" class="btn-floating btn-large waves-effect waves-light red" id="xuming-trigger">+1s</a>
-    </div>
-    <!-- 膜dals -->
-    <div id="prolonged" class="modal center">
-        <div class="modal-content">
-            <h4>续命成功</h4>
-            <p>成功为长者续命一秒!</p>
-        </div>
-        <div class="modal-footer">
-            <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">吼啊!</a>
-        </div>
-    </div>
+	<!-- preloader -->
+	<div id="preloader">
+		<div class="preloader-wrapper active">
+			<div class="spinner-layer spinner-red">
+				<div class="circle-clipper left">
+					<div class="circle">
+					</div>
+				</div>
+				<div class="gap-patch">
+					<div class="circle">
+					</div>
+				</div>
+				<div class="circle-clipper right">
+					<div class="circle">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end preloader -->
+	<div id="xuming">
+		<a href="javascript:void(0);" class="btn-floating btn-large waves-effect waves-light red" id="xuming-trigger">+1s</a>
+	</div>
+	<!-- 膜dals -->
+	<div id="prolonged" class="modal center">
+		<div class="modal-content">
+			<h4>续命成功</h4>
+			<p>成功为长者续命一秒!</p>
+		</div>
+		<div class="modal-footer">
+			<a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">吼啊!</a>
+		</div>
+	</div>
 
-    <div id="failed" class="modal center">
-        <div class="modal-content">
-            <h4>续命失败</h4>
-            <p>每天只可以续命一次!</p>
-        </div>
-        <div class="modal-footer">
-            <a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">I'M ANGRY!</a>
-        </div>
-    </div>
-    <!-- end 膜dals -->
+	<div id="failed" class="modal center">
+		<div class="modal-content">
+			<h4>续命失败</h4>
+			<p>每天只可以续命一次!</p>
+		</div>
+		<div class="modal-footer">
+			<a href="javascript:void(0);" class="modal-action modal-close waves-effect waves-green btn-flat">I'M ANGRY!</a>
+		</div>
+	</div>
+	<!-- end 膜dals -->
 </body>
 
 </html>
