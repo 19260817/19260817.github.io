@@ -36,7 +36,7 @@ body {
 }
 
 .btn-flat {
-  float: none;
+  float: none !important;
   font-size: 120%;
 }
 
