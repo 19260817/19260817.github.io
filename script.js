@@ -79,4 +79,34 @@ $(document).ready(function() {
 	$("#bless").click(function() {
 		$("#disqus_thread").slideToggle(817, "easeOutSine");
 	});
+	$('.preloader-wrapper').fadeOut();
+	$('#preloader').delay(350).fadeOut('slow');
+	$('body').delay(350).css({
+		'overflow': 'visible'
+	});
+	var disqus_config = function() {
+		this.page.url = "https://19260817.ml";
+		this.page.identifier = "19260817";
+	};
+	(function() {
+		var d = document,
+			s = d.createElement('script');
+		s.src = '//elder1926.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+	})();
+	//Google Analytics
+	(function(i, s, o, g, r, a, m) {
+		i['GoogleAnalyticsObject'] = r;
+		i[r] = i[r] || function() {
+			(i[r].q = i[r].q || []).push(arguments)
+		}, i[r].l = 1 * new Date();
+		a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+		a.async = 1;
+		a.src = g;
+		m.parentNode.insertBefore(a, m)
+	})(window, document, 'script',
+		'https://www.google-analytics.com/analytics.js', 'ga');
+	ga('create', 'UA-45383141-2', 'auto');
+	ga('send', 'pageview');
 });
