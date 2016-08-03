@@ -86,10 +86,6 @@ $(window).load(function() {
 	$('body').delay(350).css({
 		'overflow': 'visible'
 	});
-	var disqus_config = function() {
-		this.page.url = "https://19260817.ml";
-		this.page.identifier = "elder1926";
-	};
 	(function() {
 		var d = document,
 			s = d.createElement('script');
