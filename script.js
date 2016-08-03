@@ -79,6 +79,8 @@ $(document).ready(function() {
 	$("#bless").click(function() {
 		$("#disqus_thread").slideToggle(817, "easeOutSine");
 	});
+});
+$(window).load(function() {
 	$('.preloader-wrapper').fadeOut();
 	$('#preloader').delay(350).fadeOut('slow');
 	$('body').delay(350).css({
@@ -105,8 +107,7 @@ $(document).ready(function() {
 		a.async = 1;
 		a.src = g;
 		m.parentNode.insertBefore(a, m)
-	})(window, document, 'script',
-		'https://www.google-analytics.com/analytics.js', 'ga');
+	})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 	ga('create', 'UA-45383141-2', 'auto');
 	ga('send', 'pageview');
-});
+})
