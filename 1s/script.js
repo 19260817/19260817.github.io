@@ -29,8 +29,12 @@ $(document).ready(function() {
     }
   });
 });
-
 $(window).load(function() {
+  $('.preloader-wrapper').fadeOut();
+  $('#preloader').delay(350).fadeOut('slow');
+  $('body').delay(350).css({
+    'overflow': 'visible'
+  });
   (function(i, s, o, g, r, a, m) {
     i['GoogleAnalyticsObject'] = r;
     i[r] = i[r] || function() {
@@ -43,9 +47,4 @@ $(window).load(function() {
   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
   ga('create', 'UA-45383141-2', 'auto');
   ga('send', 'pageview');
-  $('.preloader-wrapper').fadeOut();
-  $('#preloader').delay(350).fadeOut('slow');
-  $('body').delay(350).css({
-    'overflow': 'visible'
-  });
 })
