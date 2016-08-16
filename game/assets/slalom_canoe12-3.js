@@ -2038,32 +2038,35 @@
             var a = kd - Yd,
                 b = 0;
 			var sse = document.getElementsByClassName("hplogo_sse")[1];
-			if (a <= 12) {
+			var a = (a / 1E3).toFixed(2);
+			if (a <= 8.17) {
+				sse.innerHTML = "钦定了！";
+			} else if (a <= 12) {
 				sse.innerHTML = "划得还快！";
 			} else if (a <= 17) {
 				sse.innerHTML = "这个效率efficiency!";
-			} else if (a <= 19) {
+			} else if (a <= 19.26) {
 				sse.innerHTML = "比其他滴香港记者啊，划得还快！";
 			} else if (a <= 23) {
-				sse.innerHTML = "划得还快！";
+				sse.innerHTML = "美国的划莱士，你给他谈笑风生！";
 			} else if (a <= 26) {
 				sse.innerHTML = "美洲的那一条运河你没划过？";
 			} else if (a <= 30) {
 				sse.innerHTML = "棕羊都决定了，你来当赛艇运动员！";
-			} else if (a <= 36) {
+			} else if (a <= 32) {
 				sse.innerHTML = "还是要提高志己的赛艇水平！";
-			} else if (a <= 40) {
+			} else if (a <= 34) {
 				sse.innerHTML = "你毕竟还too slow!";
-			} else if (a <= 45) {
+			} else if (a <= 36) {
 				sse.innerHTML = "比其他滴西方记者啊，划得还慢！";
-			} else if (a <= 50) {
+			} else if (a <= 38) {
 				sse.innerHTML = "划得还慢！";
-			} else if (a > 50) {
+			} else if (a > 42) {
 				sse.innerHTML = "真替你的速度捉急啊，真的！";
-			}
+			};
             17E3 > a ? b = 3 : 3E4 > a ? b = 2 : 6E4 > a && (b = 1);
             Qc(1, a, b);
-            var a = a ? (a / 1E3).toFixed(1) + "s" : "",
+            var a = a ? a + "s" : "",
                 c = "slalom_canoe";
             fc.D = xc + a;
             c || (c = ec);
