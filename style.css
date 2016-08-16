@@ -270,6 +270,7 @@ footer p {
 #game {
   width: 544px;
   height: 223px;
+  display: none;
   overflow: hidden;
   border-style: none;
 }
