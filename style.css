@@ -267,7 +267,12 @@ footer p {
 .paypal span:nth-child(2) {
   color: #009cde;
 }
-
+#game {
+  width: 544px;
+  height: 223px;
+  overflow: hidden;
+  border-style: none;
+}
 /* animation */
 @-webkit-keyframes pulse {
   from {
