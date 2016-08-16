@@ -52,7 +52,7 @@ function zeroPad(num) {
 }
 $(document).ready(function() {
 	var options = {
-		date: "17 August 2016 00:00:00", // change date/time here - do not change the format!
+		date: "16 August 2016 20:34:50", // change date/time here - do not change the format!
 		interval: 100,
 		adjust: -1000
 	};
@@ -69,6 +69,8 @@ $(document).ready(function() {
 		countdown(options, function(days, hours, minutes, seconds) {
 			if (!days && !hours && !minutes && !seconds) {
 				elemSeconds.toggleClass("pulse");
+				$("#xuming-trailer").hide();
+				$("#game").fadeIn("slow");
 			}
 			elemDays.text(zeroPad(days));
 			elemHours.text(zeroPad(hours));
