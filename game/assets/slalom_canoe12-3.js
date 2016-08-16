@@ -1104,8 +1104,7 @@
                 b = Mc(1),
                 c = Mc(2) + " \u2013 " + Mc(0) + ": ";
             ec = "slalom-canoe";
-            var d = window.location.protocol +
-                "//www.google.com/doodles/slalom-canoe-2012";
+            var d = "无中生有的成绩!";
             Nc("olympics12-hp-sprite.png");
             D = r("div", "hplogo_sc");
             cc = r("div", "hplogo_sb");
@@ -1308,153 +1307,7 @@
             a.style.margin = c + "px 0 0 " + b + "px"
         };
     var ed = {
-            ALL: ["Play again", "Search", "Share on Google+"],
-            af: ["Speel weer", "Soek", "Deel op Google+"],
-            "am_ET(Amharic/ALL)": [
-                "\u12a5\u1295\u12f0\u1308\u1293 \u12a0\u132b\u12cd\u1275",
-                "\u1348\u120d\u130d",
-                "Google+ \u120b\u12ed \u12a0\u130b\u122b"
-            ],
-            ar: [
-                "\u0627\u0644\u0644\u0639\u0628 \u0645\u0631\u0629 \u062b\u0627\u0646\u064a\u0629",
-                "\u0628\u062d\u062b",
-                "\u0627\u0644\u0645\u0634\u0627\u0631\u0643\u0629 \u0639\u0644\u0649 +Google"
-            ],
-            az: ["Yen\u0259 oyna", "Axtar",
-                "Google+'da b\u00f6l\u00fc\u015f"
-            ],
-            be: ["\u042f\u0448\u0447\u044d \u0440\u0430\u0437",
-                "\u0428\u0443\u043a\u0430\u0446\u044c",
-                "\u041f\u0430\u0434\u0437\u044f\u043b\u0456\u0446\u0446\u0430 \u043d\u0430 Google+"
-            ],
-            bg: [
-                "\u041f\u043e\u0432\u0442\u043e\u0440\u043d\u043e \u043f\u0443\u0441\u043a\u0430\u043d\u0435",
-                "\u0422\u044a\u0440\u0441\u0435\u043d\u0435",
-                "\u0421\u043f\u043e\u0434\u0435\u043b\u044f\u043d\u0435 \u0432 Google+"
-            ],
-            bn: [
-                "\u0986\u09ac\u09be\u09b0 \u09aa\u09cd\u09b2\u09c7 \u0995\u09b0\u09c1\u09a8",
-                "\u0985\u09a8\u09c1\u09b8\u09a8\u09cd\u09a7\u09be\u09a8 \u0995\u09b0\u09c1\u09a8",
-                "Google+ \u098f \u09ad\u09be\u0997 \u0995\u09b0\u09c1\u09a8"
-            ],
-            bs: ["Igraj ponovno", "Tra\u017ei", "Podijeli na Google+"],
-            ca: ["Juga una altra vegada", "Cerca ", "Comparteix a Google+"],
-            cs: ["Hr\u00e1t znovu", "Hledat", "Sd\u00edlet na Google+"],
-            da: ["Spil igen", "S\u00f8g", "Del p\u00e5 Google+"],
-            de: ["Nochmal ansehen", "Suchen", "Auf Google+ teilen"],
-            el: [
-                "\u03a0\u03b1\u03af\u03be\u03c4\u03b5 \u03be\u03b1\u03bd\u03ac",
-                "\u0391\u03bd\u03b1\u03b6\u03b7\u03c4\u03ae\u03c3\u03c4\u03b5",
-                "\u039c\u03bf\u03b9\u03c1\u03b1\u03c3\u03c4\u03b5\u03af\u03c4\u03b5 \u03c3\u03c4\u03bf Google+"
-            ],
-            en_us: ["Play again", "Search", "Share on Google+"],
-            "en-GB": ["Play again", "Search", "Share on Google+"],
-            es: ["Jugar de nuevo", "Buscar", "Compartir en Google+"],
-            "es-419": ["Jugar de nuevo", "Buscar", "Compartir en Google+"],
-            et: ["M\u00e4ngi uuesti", "Otsi", "Jaga teenuses Google+"],
-            eu: ["Jolastu berriro", "Bilatu", "Partekatu Google+en"],
-            fi: ["Toista uudelleen", "Hae", "Jaa Google+ -palvelussa"],
-            fr: ["Revoir", "Rechercher", "Partager sur Google+"],
-            ga: ["Seinn ar\u00eds \u00e9", "Cuardaigh", "Roinn ar Google+"],
-            gl: ["Xogar de novo", "Buscar", "Compartir en Google+"],
-            hr: ["Ponovi", "Pretra\u017ei", "Dijeli na Google+"],
-            hu: ["Lej\u00e1tsz\u00e1s ism\u00e9t", "Keres\u00e9s",
-                "Megoszt\u00e1s a Google+-on"
-            ],
-            id: ["Main lagi", "Telusuri", "Bagikan di Google+"],
-            is: ["Spila aftur", "Leita", "Deila \u00e1 Google+"],
-            it: ["Gioca di nuovo", "Cerca", "Condividi su Google+"],
-            iw: ["\u05d4\u05e4\u05e2\u05dc \u05e9\u05d5\u05d1",
-                "\u05d7\u05e4\u05e9",
-                "\u05e9\u05ea\u05e3 \u05d1-Google+"
-            ],
-            ja: ["\u3082\u3046\u4e00\u5ea6\u898b\u308b", "\u691c\u7d22",
-                "Google+ \u3067\u5171\u6709"
-            ],
-            ko: ["\ub2e4\uc2dc\ud558\uae30", "\uac80\uc0c9",
-                "Google+\uc5d0\uc11c \uacf5\uc720"
-            ],
-            lt: ["Rodyti dar kart\u0105", "Ie\u0161koti",
-                "Dalytis \u201eGoogle+\u201c"
-            ],
-            lv: ["Atska\u0146ot v\u0113lreiz", "Mekl\u0113t",
-                "Kop\u012bgot Google+"
-            ],
-            mk: [
-                "\u0418\u0433\u0440\u0430\u0458 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e",
-                "\u041f\u0440\u0435\u0431\u0430\u0440\u0430\u0458",
-                "\u0421\u043f\u043e\u0434\u0435\u043b\u0438 \u043d\u0430 Google+"
-            ],
-            mr: [
-                "\u092a\u0941\u0928\u094d\u0939\u093e \u092a\u094d\u0932\u0947 \u0915\u0930\u093e",
-                "\u0936\u094b\u0927\u093e",
-                "Google+ \u0935\u0930 \u0938\u093e\u092e\u093e\u092f\u093f\u0915 \u0915\u0930\u093e"
-            ],
-            ms_my: ["Main semula", "Cari", "Kongsi di Google+"],
-            nl: ["Opnieuw afspelen", "Zoeken", "Delen op Google+"],
-            no: ["Spill av p\u00e5 nytt", "S\u00f8k", "Del p\u00e5 Google+"],
-            pl: ["Odtw\u00f3rz ponownie", "Szukaj",
-                "Udost\u0119pnij w Google+"
-            ],
-            "pt-BR": ["Jogar novamente", "Pesquisar",
-                "Compartilhar no Google+"
-            ],
-            "pt-PT": ["Jogar novamente", "Pesquisar",
-                "Partilhar no Google+"
-            ],
-            ro: ["Reda\u0163i din nou", "C\u0103uta\u0163i",
-                "Distribui\u0163i \u00een Google+"
-            ],
-            ru: [
-                "\u0418\u0433\u0440\u0430\u0442\u044c \u0435\u0449\u0451 \u0440\u0430\u0437",
-                "\u0418\u0441\u043a\u0430\u0442\u044c",
-                "\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Google+"
-            ],
-            sk: ["Hra\u0165 znova", "H\u013eada\u0165",
-                "Zdie\u013ea\u0165 v Google+"
-            ],
-            sl: ["Ponovno predvajaj", "I\u0161\u010di",
-                "Deli v storitvi Google+"
-            ],
-            sr: ["\u0418\u0433\u0440\u0430\u0458 \u043e\u043f\u0435\u0442",
-                "\u041f\u0440\u0435\u0442\u0440\u0430\u0436\u0438",
-                "\u0414\u0435\u043b\u0438 \u043d\u0430 Google+"
-            ],
-            sv: ["Spela igen", "S\u00f6k", "Dela p\u00e5 Google+"],
-            sw: ["Cheza tena", "Tafuta", "Shiriki kwenye Google+"],
-            th_All: [
-                "\u0e40\u0e25\u0e48\u0e19\u0e2d\u0e35\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07 ",
-                "\u0e04\u0e49\u0e19\u0e2b\u0e32",
-                "\u0e41\u0e1a\u0e48\u0e07\u0e1b\u0e31\u0e19\u0e1a\u0e19 Google+"
-            ],
-            tr: ["Tekrar oyna", "Ara", "Google+'da payla\u015f"],
-            uk: [
-                "\u0413\u0440\u0430\u0442\u0438 \u0449\u0435 \u0440\u0430\u0437",
-                "\u0428\u0443\u043a\u0430\u0442\u0438",
-                "\u041f\u043e\u0434\u0456\u043b\u0438\u0442\u0438\u0441\u044c \u0443 Google+"
-            ],
-            vi: ["Ph\u00e1t l\u1ea1i", "T\u00ecm ki\u1ebfm",
-                "Chia s\u1ebb tr\u00ean Google+"
-            ],
-            "zh-CN": ["\u518d\u73a9\u4e00\u6b21", "\u641c\u7d22",
-                "\u901a\u8fc7 Google+ \u5206\u4eab"
-            ],
-            "zh-TW_HK": ["\u518d\u64ad\u4e00\u6b21", "\u641c\u5c0b",
-                "\u900f\u904e Google+ \u5206\u4eab"
-            ],
-            "zh-TW_tw": ["\u518d\u770b\u4e00\u6b21", "\u641c\u5c0b",
-                "\u900f\u904e Google+ \u5206\u4eab"
-            ],
-            zu: ["Dlala futhi", "Sesha ", "Yabelana ku-Google+"],
-            hi: ["\u092b\u093c\u093f\u0930 \u0916\u0947\u0932\u0947\u0902",
-                "\u0916\u094b\u091c\u0947\u0902",
-                "Google+ \u092a\u0930 \u0938\u093e\u091d\u093e \u0915\u0930\u0947\u0902"
-            ],
-            fil: ["I-play muli", "Maghanap", "Ibahagi sa Google+"],
-            fa: ["\u0628\u0627\u0632\u067e\u062e\u0634",
-                "\u062c\u0633\u062a\u062c\u0648",
-                "\u0627\u0634\u062a\u0631\u0627\u06a9\u200c\u06af\u0630\u0627\u0631\u06cc \u062f\u0631 +Google"
-            ]
+            ALL: ["重新续", "搜索", "分享到 Google+"]
         },
         Oc = function(a) {
             return google.kHL in ed && ed[google.kHL][a] || ed.ALL[a]
@@ -2170,7 +2023,7 @@
                     for (var c; 17 > a; a++) {
                         c = 850 + 400 * a + 300 * Math.random();
                         if (Math.random() > (10 - b) / (17 - a)) {
-                            var d = 1 + Math.floor(8 * Math.random());
+                            var d = 1;
                             1 == d ? c = ve(c, 1, [62, 30]) : (d -= 2, c =
                                 ve(c, 2, ge[d]), c.variant = d)
                         } else b++, c = ve(c, 0, [8, 38], 24);
@@ -2184,13 +2037,37 @@
         we = function() {
             var a = kd - Yd,
                 b = 0;
+			var sse = document.getElementsByClassName("hplogo_sse")[1];
+			if (a <= 12) {
+				sse.innerHTML = "划得还快！";
+			} else if (a <= 17) {
+				sse.innerHTML = "这个效率efficiency!";
+			} else if (a <= 19) {
+				sse.innerHTML = "比其他滴香港记者啊，划得还快！";
+			} else if (a <= 23) {
+				sse.innerHTML = "划得还快！";
+			} else if (a <= 26) {
+				sse.innerHTML = "美洲的那一条运河你没划过？";
+			} else if (a <= 30) {
+				sse.innerHTML = "棕羊都决定了，你来当赛艇运动员！";
+			} else if (a <= 36) {
+				sse.innerHTML = "还是要提高志己的赛艇水平！";
+			} else if (a <= 40) {
+				sse.innerHTML = "你毕竟还too slow!";
+			} else if (a <= 45) {
+				sse.innerHTML = "比其他滴西方记者啊，划得还慢！";
+			} else if (a <= 50) {
+				sse.innerHTML = "划得还慢！";
+			} else if (a > 50) {
+				sse.innerHTML = "真替你的速度捉急啊，真的！";
+			}
             17E3 > a ? b = 3 : 3E4 > a ? b = 2 : 6E4 > a && (b = 1);
             Qc(1, a, b);
-            var a = a ? (a / 1E3).toFixed(1) + " s" : "",
+            var a = a ? (a / 1E3).toFixed(1) + "s" : "",
                 c = "slalom_canoe";
             fc.D = xc + a;
             c || (c = ec);
-            fc.C = "https://www.google.comassets/" + c + "12-hp-share" + b +
+            fc.C = "assets/" + c + "12-hp-share" + b +
                 ".png";
             bc.textContent = a;
             for (a = 0; 3 > a; a++) Cc[a].className = a < b ? "hplogo_smg" :
