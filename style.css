@@ -269,10 +269,11 @@ footer p {
 }
 #game {
   width: 544px;
-  height: 223px;
+  height: 256px;
   display: none;
   overflow: hidden;
   border-style: none;
+  margin-left: 175px;
 }
 /* animation */
 @-webkit-keyframes pulse {
