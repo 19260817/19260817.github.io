@@ -9,8 +9,6 @@ function countdown(options, cb) {
 		if (eventTime <= currentTime) {
 			clearInterval(timer);
 			seconds = days = hours = minutes = 0;
-			document.getElementById('xuming-trailer').style.display = 'none';
-			document.getElementById('game').style.display = 'block';
 		} else {
 			var milliseconds = eventTime - currentTime;
 			days = Math.floor(milliseconds / 86400 / 1000);
@@ -52,7 +50,7 @@ function zeroPad(num) {
 }
 $(document).ready(function() {
 	var options = {
-		date: "16 August 2016 20:34:50", // change date/time here - do not change the format!
+		date: "17 August 2016 00:00:00", // change date/time here - do not change the format!
 		interval: 100,
 		adjust: -1000
 	};
